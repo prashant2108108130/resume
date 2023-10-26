@@ -1,0 +1,417 @@
+ /* main background image start   */
+
+ /* only back and overlay */
+ .back
+ {
+    background-image:url('https://bootstrapmade.com/demo/templates/MyResume/assets/img/hero-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   
+ }
+ @media only screen and (max-width: 768px)
+{
+    .back
+   {
+    background-image:url('young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   }
+   #cnmo
+   {  padding-top: 50%;
+    justify-content: center !important;
+   }
+}
+.overlay
+{
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top:40px;
+    left:0;
+}
+ /* only back and overlay */
+#cen
+{  padding-left: 5%;
+   padding-top: 20%;
+   margin: 0;
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 56px;
+   color: #45505b;
+}
+#cen2
+{
+    padding-left: 7%;
+}
+.flexx
+{
+    display: flex;
+    padding-left: 10%;
+}
+#hov:hover 
+{
+   color: #0563bb ;
+   transform: scale(1.5);
+}
+
+/* main background image end   */
+
+/* About section start */
+
+#abo
+{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    /* border-bottom:2px soild #0563bb; */
+    /* border: 2px soild black; */
+}
+#bor
+{
+    color:#45505b;
+}
+/* About section start */
+
+/* profile section start */
+#ph
+{
+    font-weight: 700;
+    font-size: 26px;
+    color: #728394;
+}
+#rrr
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+/* profile section end */
+
+/* circle start */
+#ioc
+{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+    background-color: #0563bb;
+    border-radius: 50%;
+    color: white;
+}
+.lin{
+    margin-top: -3%;
+}
+#jus
+{
+     align-items: center;
+     justify-content:end;
+}
+@media only screen and (max-width: 768px)
+{
+    #cee
+   {
+     text-align: center;
+     margin-left: 0% !important;
+   }
+}
+/* circle end */
+
+/* skill start */
+
+/* skill end */
+
+/* progress bar start */
+.flex{
+    display: flex;
+}
+.flex :first-child
+{
+    margin-right: auto;
+}
+/* progress bar end */
+
+/* summary start */
+#bbr
+{
+   border-left: 2px solid #0563bb;
+}
+.flexxx
+{
+    display: flex;
+}
+
+/* summary end */
+
+/* card start */
+#mma
+{
+    position: relative;
+    display: flex;
+   
+    justify-content: center !important;
+}
+#fis
+{
+    position: relative;
+}
+#seec
+{
+    position: absolute;
+
+   padding-top: 25px;
+}
+#tilt
+{
+    font-size: 25px;
+    color: #0563bb;
+    font-weight: 600;
+}
+.card
+{
+    text-decoration: none;
+    border-color: white;
+}
+#ic
+{
+    color:#0563bb;
+}
+ .card:hover #ic
+{
+    color: black !important;
+}
+.card:hover #ic2
+{
+   background-color: #0563bb !important; 
+   border-radius: 50%;   
+}
+#ica
+{
+    color:#ffa76e;
+}
+ .card:hover #ica
+{
+    color: black !important;
+}
+.card:hover #ic2a
+{
+   background-color: #ffa76e !important; 
+   border-radius: 50%;
+}
+#tilta
+{
+    font-size: 25px;
+    color:#ffa76e;
+    font-weight: 600;      
+}
+
+#icb
+{
+    color: #e80368;
+}
+ .card:hover #icb
+{
+    color: black !important;
+}
+.card:hover #ic2b
+{
+   background-color: #e80368!important; 
+   border-radius: 50%;
+}
+#tiltb
+{
+    font-size: 25px;
+    color: #e80368;
+    font-weight: 600;       
+}
+
+#icc
+{
+    color: #ffbb2c;
+}
+ .card:hover #icc
+{
+    color: black !important;
+}
+.card:hover #ic2c
+{
+   background-color: #ffbb2c!important; 
+   border-radius: 50%;
+}
+#tiltc
+{
+    font-size: 25px;
+    color: #ffbb2c;
+    font-weight: 600;      
+}
+
+#icd
+{
+    color: #ff5828;
+}
+ .card:hover #icd
+{
+    color: black !important;
+}
+.card:hover #ic2d
+{
+   background-color:  #ff5828!important; 
+   border-radius: 50%;
+}
+#tiltd
+{
+    font-size: 25px;
+    color: #ff5828;
+    font-weight: 600;      
+}
+
+#ice
+{
+    color: #11dbcf;
+}
+ .card:hover #ice
+{
+    color: black !important;
+}
+.card:hover #ic2e
+{
+   background-color:  #11dbcf!important; 
+   border-radius: 50%;
+}
+#tilte
+{
+    font-size: 25px;
+    color: #11dbcf;
+    font-weight: 600;      
+}
+
+.card:hover
+{
+    border-color:  rgba(110, 123, 131, 0.2) !important;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.2) !important;
+}
+/* card end */
+
+/* img and text of testonomial */
+#cir
+{
+    border-radius: 50%;
+    width: 120px;
+}
+/* img and text of testonomial */
+
+/* form start */
+.flex
+    {
+        display: flex;
+    }
+    .flex :first-child
+    {  margin-right: auto;
+       
+    }
+    #pm
+    {
+        font-weight: 600;
+    font-size: 22px;
+    }
+    #nmb:hover
+    {
+        background-color: aliceblue;
+        border-color: aliceblue;
+        margin-top: -10px;
+        transition: 0.5;
+        border-radius: 10px 10px  aliceblue;
+    }
+    #adfg
+    {
+      color: aqua;
+    }
+    #klj
+    {
+        background-color: rgba(247, 245, 246, 0.8);
+    }
+    .flexx
+    {
+        display: flex;
+    }
+    /* #nmb
+    {
+        margin-left: 4px;
+        margin-right: 4px;
+    } */
+
+  #SendMessage
+  {
+    padding: 10px 35px;
+    border-radius: 20px 20px 20px 20px;
+    background: #0563bb ; 
+    color: white;
+  }
+  #textarea:hover{
+    border-color: #0563bb;
+  }
+  #Subject1
+  {
+    border-color: #0563bb;
+  }
+  #YourEmail1
+  {
+    border-color: #0563bb;
+  }
+  #YourName1
+  {
+    border-color: #0563bb;
+  }
+
+  #ioon
+{
+    padding: 10px;
+    background-color: #eef7ff;
+    border-radius: 50%;
+    color: #0563bb;
+}
+.flexx:hover #ioon
+{
+    background-color: #0563bb;
+    color: white;
+}
+#SendMessage:hover
+{
+    background-color: #1983e6;
+}
+/* form end */
+
+/* footer start */
+footer{
+    background-color: #e4e9f0;
+}
+#frr
+{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #728394;
+}
+.flexxy
+{
+    display: flex;
+    justify-content: center !important;
+}
+#colo
+{
+    color: #0563bb;
+}
+/* footer end */
